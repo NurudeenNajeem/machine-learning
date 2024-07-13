@@ -4,7 +4,7 @@ import pandas as pd
 import requests
 
 # Your TMDb API key
-api_key = '51209419a4faa366018a881ebe4967d5'
+api_key = ''
 
 # Function to fetch movie poster
 def fetch(movie_id):
