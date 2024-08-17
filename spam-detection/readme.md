@@ -1,19 +1,17 @@
 ## Report on Spam Detection Model Development and Streamlit Implementation
 1. Introduction
-1.1 Project Overview
+** 1.1 Project Overview
 Spam detection is a crucial task in modern communication systems, particularly in email services, where identifying and filtering out spam messages is essential for improving user experience and security. This project focuses on building a spam detection model using the Naive Bayes algorithm, a popular choice for text classification tasks due to its simplicity and effectiveness. The model is trained on a dataset of labeled emails and integrated into a user-friendly web application using Streamlit.
-
 1.2 Objectives
 The primary objectives of this project are:
-
-To develop a machine learning model capable of classifying emails or messages as "spam" or "not spam."
-To implement this model within a Streamlit application, allowing users to input text messages and receive real-time predictions.
+* To develop a machine learning model capable of classifying emails or messages as "spam" or "not spam."
+* To implement this model within a Streamlit application, allowing users to input text messages and receive real-time predictions.
 2. Methodology
 2.1 Dataset
 The dataset used in this project consists of labeled emails, categorized as either "spam" or "ham" (not spam). The dataset was preprocessed to ensure that the labels are binary (1 for spam, 0 for ham). The text messages within the dataset serve as the input features for the model, while the labels serve as the target variable.
 
 2.2 Data Preprocessing
-The following preprocessing steps were taken:
+** The following preprocessing steps were taken:
 
 Label Conversion: The labels were converted from categorical to binary form, with "spam" mapped to 1 and "ham" mapped to 0.
 Text Vectorization: The text data was transformed into a numerical format using the CountVectorizer, a method that converts the text into a matrix of token counts. This step is crucial for enabling the machine learning algorithm to process the text data.
